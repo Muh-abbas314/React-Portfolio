@@ -1,13 +1,22 @@
+
+.Header-flex{
+    /* position: relative; */
+}
 header{
+    
+    border: 1px solid white;
     height:100vh;
     padding-top: 7rem;
     overflow: hidden;
-}
+    }
 
 .header__container{
+
     text-align:center;
     height:100%;
     position:relative;
+    
+
 }
 
 /* _______________CTA */
@@ -28,7 +37,7 @@ header{
     left: 10%;
     bottom: 3rem;
 }
-.header__scials::after{
+.header__socials::after{
     content: "";
     width:1px;
     height: 2rem;
@@ -56,15 +65,20 @@ header{
     font-weight: 300;
     font-size: 0.9rem;
 }
+
+
+
 /* ****MEDIA QUERY */
 @media screen and (max-width:1024px){
     header{
-        /* height: 8vh; */
+        /* height: 100vh; */
     }
     
 }
 @media screen and (max-width:600px){
-    .header{
+    header{
+        
+        /* width: 110vw; */
         height: 100vh;
     }
     

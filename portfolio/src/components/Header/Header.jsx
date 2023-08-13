@@ -8,7 +8,8 @@ import HeaderSocials from './HeaderSocials'
 
 export default function Header(){
     return(
-        <header>
+        <div className='Header-flex'>
+            <header>
             <div className="container header__container">
                 <h5>Hello I'm</h5>
                 <h1>Muhammad Abbas</h1>
@@ -23,5 +24,6 @@ export default function Header(){
 
                            </div>
         </header>
+        </div>
     )
 }
