@@ -1,4 +1,4 @@
-import CV from '../../assets/cv.pdf'
+import CV from '../../assets/Muhammad_Resume.pdf'
 export default function CTA()
 {
     return(<div className="cta">
