@@ -22,7 +22,7 @@
 
     --container-width-lg:75%;
     --container-width-md:86%;
-    --container-width-sm:90%;
+    --container-width-sm:97%;
 }
 
 html{
@@ -39,6 +39,8 @@ body{
     color:var(--color-white);
     line-height: 1.7;
     background-image: url(portfolio\src\assets\bg-texture.png);
+    display: flex;
+    justify-content: center;
 }
 
 /* *******GENERAL STYLES */
@@ -60,7 +62,7 @@ h1{
 }
 
 section{
-    margin:8rem 0;
+    margin:8rem 0 8rem 5rem;
     height: 100vh;
 }
 

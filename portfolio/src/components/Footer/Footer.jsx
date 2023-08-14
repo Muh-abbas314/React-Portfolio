@@ -4,7 +4,7 @@ import {BsLinkedin, BsGithub} from 'react-icons/bs'
 
 export default function Footer(){
     return(<footer>
-        <a href='#' className='footer__logo'>SCRIM</a>
+        <a href='#' className='footer__logo'>.SCRIM.</a>
     <ul className='permalinks'>
         <li><a href='#'>Home</a></li>
         <li><a href='#about'>About</a></li>

@@ -1,4 +1,5 @@
 import logo from '../../assets/me-about.jpg'
+import logo1 from '../../assets/react.svg'
 import {FaAward} from 'react-icons/fa'
 import {PiUsers} from 'react-icons/pi'
 import './About.css' 
@@ -11,7 +12,8 @@ export default function About()
         <div className="container about__container">
             <div className="about__me">
                 <div className="about__me-image">
-                    <img src={logo}/>
+                    {/* <img src={logo}/> */}
+                    <img className='react-logo' src={logo1}/>
                 </div>
             </div>
             <div className='about__content'>
@@ -33,9 +35,7 @@ export default function About()
                     </article>
                 </div>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nesciunt distinctio voluptates, quia reprehenderit odio officiis! Qui animi nemo quibusdam vel. Laborum, dolore.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut aperiam inventore fugit dolor.
-
+                I'm a skilled frontend developer with two years of experience, specializing in React.js. I'm passionate about creating engaging and user-centric web experiences through clean code and innovative design.
                 </p>
                 <a className='btn btn-primary' href='#contact'>Let's Talk</a>
             </div>

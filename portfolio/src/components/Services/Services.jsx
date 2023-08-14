@@ -3,29 +3,35 @@ import {BiCheck} from "react-icons/bi"
 
 export default function Services(){
 
-    const uiExperience=["Lorem ipsum dolor sit amet consectetur adipisicing elit",
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit",
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit",
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit"]
+    const uiExperience=["Typography & Color Theory",
+"Layout & Composition",
+"Responsive & Mobile Design",
+"Usability Testing & User Feedback",
+"Interaction Design"]
 
+const webDev=["Custom Website Development",
+"Wordpress Website Builders",
+"Template Based Websites",
+"Custom Web Application",
+"Static Website Development"]
     const DispUi=uiExperience.map(item=>{
         return(<li key={item}>
             <BiCheck className='services__list-icon'/>
             <p>{item}</p>
             </li>)
     })
-    const WebDev=uiExperience.map(item=>{
+    const WebDev=webDev.map(item=>{
         return(<li key={item}>
             <BiCheck className='services__list-icon'/>
             <p>{item}</p>
             </li>)
     })
-    const ContentCreation=uiExperience.map(item=>{
-        return(<li key={item}>
-            <BiCheck className='services__list-icon'/>
-            <p>{item}</p>
-            </li>)
-    })
+    // const ContentCreation=uiExperience.map(item=>{
+    //     return(<li key={item}>
+    //         <BiCheck className='services__list-icon'/>
+    //         <p>{item}</p>
+    //         </li>)
+    // })
 
     return(<section id="services">
     <h5>What I Offer</h5>
@@ -49,14 +55,17 @@ export default function Services(){
             </ul>
         </article>
         {/* END OF WEB DEV */}
-        <article className='service'>
+        {/* <article className='service'>
             <div className='service__head'>
                 <h3>Content Creation</h3>
             </div>
             <ul className='service__list'>
             {ContentCreation}
             </ul>
-        </article>
+        </article> */}
+    </div>
+    <div className='spacing'>
+    
     </div>
     </section>)
 }

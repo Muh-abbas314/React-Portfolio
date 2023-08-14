@@ -1,6 +1,6 @@
 import './Header.css'
 import CTA from "./CTA"
-import ME from '../../assets/me.png'
+import ME from '../../assets/react.svg'
 import HeaderSocials from './HeaderSocials'
 
 
@@ -18,7 +18,7 @@ export default function Header(){
                 
                 <HeaderSocials/>
                 <div className='me'>
-                    <img src={ME} alt=''/>
+                    <img className='logo' src={ME} alt=''/>
                 </div>
                 <a href='#contact' className='scroll__down'>Scroll Down</a>
 

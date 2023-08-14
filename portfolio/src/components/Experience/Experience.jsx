@@ -14,13 +14,13 @@ export default function Experience(){
         <small className='text-light'>Experienced</small>
         </div></article>)
     })
-    const BackElements=skills2.map(item=>{
-        return( <article key={item} className='experience__details'><PiSealCheck className=' experience__details-icon'/>
-        <div className=''>
-        <h4>{item}</h4>
-        <small className='text-light'>Experienced</small>
-        </div></article>)
-    })
+    // const BackElements=skills2.map(item=>{
+    //     return( <article key={item} className='experience__details'><PiSealCheck className=' experience__details-icon'/>
+    //     <div className=''>
+    //     <h4>{item}</h4>
+    //     <small className='text-light'>Experienced</small>
+    //     </div></article>)
+    // })
     
     return(<section id="experience">
         <h5>Skills I have</h5>
@@ -32,12 +32,12 @@ export default function Experience(){
                 {FrontElements}
                 </div>
             </div>
-            <div className='experience__backend'>
+            {/* <div className='experience__backend'>
             <h3>Backend Development</h3>
             <div className='experience__content'>
                 {BackElements}
                 </div>
-            </div>
+            </div> */}
         </div>
     </section>)
 }

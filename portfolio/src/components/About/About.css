@@ -9,10 +9,10 @@
     width: 100%;
     aspect-ratio: 1/1;
     border-radius:2rem ;
-    background: linear-gradient(45deg,
+    /* background: linear-gradient(45deg,
     transparent,
     var(--color-primary),
-    transparent);
+    transparent); */
     display: grid;
     place-items: center;
 }
@@ -26,18 +26,37 @@
 }
 
 .about__me-image{
-
+/* border: 1px solid black; */
+padding: 3rem;
 border-radius: 2rem;
 overflow: hidden;
 transform: rotate(10deg);
 transition: var(--transition);
 
 }
-.about__me-image:hover{
+/* .about__me-image:hover{
     transform: rotate(0deg);
-    /* transition: var(--transition); */
 
+} */
+.react-logo{
+
+    transform: rotate(360deg);
+    width: 20rem;
+    font-size: 2rem;
 }
+@keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+     .react-logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
 
 .about__cards{
     display: grid;
